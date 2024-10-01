@@ -1,18 +1,18 @@
-class Bicicleta:
-    def __init__(self, cor, modelo, ano, valor):
-        self.cor = cor
-        self.modelo = modelo
-        self.ano = ano
-        self.valor = valor
+class Bicicleta: #criação da classe bicicleta
+    def __init__(self, cor, modelo, ano, valor): #inicializador, self referencia explicita para o objeto.
+        self.cor = cor #receber os atributos
+        self.modelo = modelo #receber os atributos
+        self.ano = ano #receber os atributos
+        self.valor = valor #receber os atributos
 
-    def buzinar(self):
+    def buzinar(self): #método buzinar
         print("Plim plim...")
 
-    def parar(self):
+    def parar(self): #método parar
         print("Parando bicicleta...")
         print("Bicicleta parada!")
 
-    def correr(self):
+    def correr(self): #método correr
         print("Vrummmmm...")
 
     def __str__(self):
